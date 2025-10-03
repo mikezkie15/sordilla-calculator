@@ -29,3 +29,5 @@ function average(numbers) {
   if (numbers.length === 0) return "Error: No numbers to average.";
   return numbers.reduce((a, b) => a + b, 0) / numbers.length;
 }
+
+console.log("Hello Aisan");
